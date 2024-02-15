@@ -1,0 +1,16 @@
+import java.io.*;
+import java.util.*;
+public class Target {
+public static void swap(int a, int b)
+{
+int temp = a;
+a = b;
+b = temp;
+System.out.println("Value after swapping");
+System.out.println("Value of a is " + a
++ " and Value of b is " + b);
+}
+public static void main(String[] args){
+swap(10,Q);
+}
+}
